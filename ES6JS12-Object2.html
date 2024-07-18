@@ -1,0 +1,25 @@
+<hmtl>
+    <head>
+        <title>Object</title>
+    </head>
+    <body>
+        <p id="rk">......</p>
+        <script>
+            var person={
+                firstname:"nune",
+                middlename:"swamy",
+                lastname:"karthik",
+                age:22,
+                address:"medarametla",
+                item:"laptop",
+                myFunction : function()
+                {
+                    return "Person.firstname: "+person.firstname+
+            "<br>Person Middle name :"+person.middlename+person.lastname;
+                }
+            }
+            //Display data from object
+            document.getElementById("rk").innerHTML=person.myFunction();
+        </script>
+    </body>
+</hmtl>
